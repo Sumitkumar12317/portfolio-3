@@ -1,0 +1,156 @@
+
+body{
+
+    background-color: rgb(73, 62, 62);
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color:rgb(129, 129, 119);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+}
+
+.nav li{
+    list-style: none;
+    
+}
+
+.nav li a{
+    font-size: 40px;
+    color: chartreuse;
+}
+.nav li a:hover{
+    background-color: chartreuse;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+    transition: .9s;
+    color: black;
+    cursor: pointer;
+}
+.main{
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+.about{
+    width: auto;
+    display: flex;
+    height: 790px;
+    color: whitesmoke;
+}
+.about h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.about h2{
+    padding: 20px;
+    margin-left:40px ;
+    font-size: 40px;
+   
+}
+
+.about h2 span{
+    color: rgb(77, 255, 166);
+}
+
+
+.about p{
+    padding: 20px;
+    margin-left:40px ;
+    font-size: 30px;
+    display: flex;
+    
+    
+
+}
+
+.image{
+    border: none;
+    border-radius: 50%;
+    align-items: right ;
+    height: 600px;
+    width: 550px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 40px;
+    box-shadow: 0 0 2000px rgb(255, 92, 92);
+}
+
+.bt button{
+    margin-left: 80px;
+    font-size: 40px;
+    border:2px solid rgb(13, 170, 209);
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(19, 177, 240);
+    color: rgb(12, 17, 20);
+    
+}
+
+.bt button:hover{
+    background:transparent;
+    color: rgb(231, 227, 235);
+}
+ 
+.about h3{
+    font-size: 70px;
+    padding: 20px;
+    margin-left:40px ;
+    color: aqua;
+}
+
+
+.qualification{
+
+    height: 940px;
+    width: 100%;
+
+}
+
+.qualification h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+
+
+
+.box{
+    height: 340px;
+    width: 520px;
+    margin: 40px;
+    background-color: aquamarine;
+    gap: 100px;
+    border: 1px solid red;
+    display: flex;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+
+.qualification h1{
+    font-size: 60px;
+}
+
+
+.box .fa-brands{
+    font-size: 50px;
+}
+
+.box .fa-solid{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
